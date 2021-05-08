@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "ff25964b385d2ba9",
+    "type": "split",
+    "children": [
+      {
+        "id": "48dc8f5c0e158d4f",
+        "type": "leaf",
+        "dimension": 49.88290398126465,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "html & CSS.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "0426545e3d1a7546",
+        "type": "leaf",
+        "dimension": 50.11709601873535,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SWE/Introducing Asymptotic Measures.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "83c8d371e9626226",
+    "type": "split",
+    "children": [
+      {
+        "id": "adce462b9d01285c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22b795d3751a9d7e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b68e0c85970e1ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 194.5
+  },
+  "right": {
+    "id": "510da46a00cce636",
+    "type": "split",
+    "children": [
+      {
+        "id": "03d0642db54b258f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad8bc27563adcf73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "html & CSS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "48dc8f5c0e158d4f",
+  "lastOpenFiles": [
+    "html & CSS.md",
+    "reverse bits.md",
+    "Untitled.md",
+    "SWE/Check If A Number Is A Palindrome.md",
+    "SWE/Introducing Asymptotic Measures.md",
+    "gatsby.md",
+    "Introducing Asymptotic Measures.md",
+    "week1/[第一周] - [GIT001].md",
+    "testing/unit test.md",
+    "week16/JavaScript Event Loop.md"
+  ]
+}
