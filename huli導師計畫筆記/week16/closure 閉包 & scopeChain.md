@@ -32,7 +32,7 @@ function cache(func) {
     if(ans[num]) {
       return ans[num]
     }
-      return ans[num] = func(num) //var ans[20] = complex[20]
+    return ans[num] = func(num) //var ans[20] = complex[20]
   }
   return inner
 }
@@ -260,7 +260,7 @@ arr[0] = logN(0) //回傳一個新的 function 就可以有一個新的 scope �
 arr[1] = logN(1) 
 ...
 ```
-- 解法三由解法二延伸而來，把 logN 用 IIFE 立即執行來表示
+- 解法三由解法二延伸而來，把 logN 用 IIFE(immediately invoked functions expression立即執行函式) 立即執行來表示
 ```javascript=
 //解法三 IIFE : 立即呼叫 function
 (function (num) {

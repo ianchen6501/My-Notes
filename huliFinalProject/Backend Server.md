@@ -106,6 +106,9 @@ server {
 - 流程
 - 在 [cloudflare]() 註冊並新增一個 domain 為 https 連線
 - 在原本的 DNS 服務商更改 nameServer 為 cloud flare 的 name Server
+- 名稱伺服器(gandi)
+1. `christina.ns.cloudflare.com`
+2. `ian.ns.cloudflare.com`
 
 #### refer
 [[AWS] 透過 FileZilla 使用 key-pairs 登入 AWS EC2 存取檔案](http://www.jysblog.com/coding/web/aws-透過-filezilla-使用-key-pairs-登入-aws-ec2-存取檔案/)

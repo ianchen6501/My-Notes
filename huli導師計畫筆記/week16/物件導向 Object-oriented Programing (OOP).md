@@ -136,7 +136,7 @@ console.log(dog.__proto__ === Function.prototype) //true
 /*用 prototypeChain 來理解 d 跟 dog 的關係
 1. d 的身上有沒有 sayHello()
 2. d.__proto__ 有沒有 sayHello()
-3. d.__proto__ 有沒有.__proto__ sayHello()
+3. d.__proto__.__proto__ 有沒有 sayHello()
 4. d.__proto__.__proto__.__proto__ 有沒有 sayHello()
 5. null 到頂了
 
@@ -156,7 +156,6 @@ console.log(a.toString === String.prototype.toString)
 String.prototype.first = function() {
   return this[0]
 }
-
 console.log(a.first())
 
 Number.prototype.square = function() {
@@ -170,7 +169,7 @@ console.log(num.square())
 上面我們看到可以用 new 來創建一個 object ，但 new 實際上是做了什麼事，我們可以拆解為幾個步驟。
 > 1. 創建一個新的物件
 > 2. 把新的物件當作 this 丟進 constructor 中(運用call())
-> 3. 建立 this.__proto 與 constructor.prototype 的關係
+> 3. 建立 this.__proto__ 與 constructor.prototype 的關係
 > 4. 把物件丟回來成為一個全域變數
 
 下面我們先看 call() ，是怎麼作用的，基本上 call 可以幫助我們傳入一個 this 值 ``.call(thisarg, arg, arg)`` ，並回傳執行的結果
@@ -185,7 +184,7 @@ test.call([]) //[]
 ```
 知道了 call 的作用後，就可以來看看上面的四個步驟是怎麼作用的，我們可以試著寫一個 function 出來
 ```javascript=
-//constructor
+//constructor -> 方法
 function dog(name) {
   this.name = name
 }
@@ -195,7 +194,7 @@ dog.prototype.getName = function() {
 dog.prototype.sayHello = function() {
   console.log('hello')
 }
-//這邊我們來看 new 到底做了什麼事
+//這邊我們來看 new 到底做了什麼事 -> 指定 this
 function newDog(name) {
   var obj = {}                    //1. 建立一個物件
   dog.call(obj, name)             //2. 把物件當作 this 丟進 constructor

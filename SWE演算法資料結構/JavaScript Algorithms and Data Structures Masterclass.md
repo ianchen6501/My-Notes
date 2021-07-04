@@ -13,7 +13,7 @@
 ### 如何去描述 big(O)
 - 不論 n 為何值，執行的次數都是常數 -> O(1)
 - 執行的次數跟 n 成等比 -> O(n)
-- 執行的次跟 n 平方成等比 -> O(n2)
+- 執行的次數跟 n 平方成等比 -> O(n2)
 
 ### 來看一些例子
 ```js
@@ -31,7 +31,7 @@ function addUp(n) {
 	}
 	return total
 }
-//O(n)
+//必須要加 n 次，所以big O = O(n)
 ```
 
 ```js
@@ -46,7 +46,7 @@ function countUpAndDown(n) {
 	}
 	console.log("bye")
 }
-//O(n)
+//O(2n) --> O(n)
 ```
 
 ```js

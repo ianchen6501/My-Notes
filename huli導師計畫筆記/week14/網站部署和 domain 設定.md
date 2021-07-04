@@ -7,7 +7,7 @@ IPV4
 
 [phpmyadmin](http://3.131.153.195/phpmyadmin/)
 ```
-ssh -i ~/desktop/pljim0958.pem ubuntu@3.137.97.37
+ssh -i ~/desktop/pljim0958.pem ubuntu@3.23.197.137
 ```
 預設主網頁位置
 ```

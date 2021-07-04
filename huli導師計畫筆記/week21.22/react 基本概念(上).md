@@ -177,6 +177,8 @@ revise package.json
 ``npm run deploy``
 set github-pages on github settings
 
+如果在部屬上去後有問題的話，可以查看 /build/index.html 裡面 引用的 filepath 是否正確。
+
 ### 用 react 思考
 - 第一步：將 UI 拆解成 component 層級
 - 第二步：在 React 中建立一個靜態版本

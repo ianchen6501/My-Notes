@@ -4,25 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "48dc8f5c0e158d4f",
+        "id": "1786aa02eb08c88a",
         "type": "leaf",
-        "dimension": 49.88290398126465,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "html & CSS.md",
+            "file": "JavaScript/promise.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "0426545e3d1a7546",
+        "id": "d0f264871950e652",
         "type": "leaf",
-        "dimension": 50.11709601873535,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SWE/Introducing Asymptotic Measures.md",
+            "file": "huli導師計畫筆記/week14/網站部署和 domain 設定.md",
             "mode": "preview"
           }
         }
@@ -65,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 194.5
+    "width": 223
   },
   "right": {
     "id": "510da46a00cce636",
@@ -81,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "html & CSS.md",
+                "file": "JavaScript/promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "48dc8f5c0e158d4f",
+  "active": "1786aa02eb08c88a",
   "lastOpenFiles": [
-    "html & CSS.md",
-    "reverse bits.md",
-    "Untitled.md",
-    "SWE/Check If A Number Is A Palindrome.md",
-    "SWE/Introducing Asymptotic Measures.md",
-    "gatsby.md",
-    "Introducing Asymptotic Measures.md",
-    "week1/[第一周] - [GIT001].md",
-    "testing/unit test.md",
-    "week16/JavaScript Event Loop.md"
+    "未命名.md",
+    "AWS 部屬(RDS+EC2).md",
+    "huli導師計畫筆記/week17.18/Nginx (proxy).md",
+    "huliFinalProject/Backend Server.md",
+    "huli導師計畫筆記/week17/用 node.js HTTP 與 EXPRESS (Runing server).md",
+    "huli導師計畫筆記/week14/網站部署和 domain 設定.md",
+    "SWE演算法資料結構/Arrays - Enumerate All Primes To N.md",
+    "vscode 指令.md",
+    "SWE演算法資料結構/時間複雜度.md",
+    "vscode.md"
   ]
 }
